@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>브레드투어</title>
+    <!-- 1440 / 768 / 1440px 서브 / 768px 이상이면 가로 스크롤이 보이지 않는다.-->
+    <!-- 비주얼 브레드투어 소개 코스 추천 이벤트 소개 새소식 후원사 영역 -->
+    <!-- Sub1 대전 빵집 - 검색 영역, 빵집베스트5 빵집리스트 영역 -->
+    <!-- Logo, main768, sub -->
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <section class="tourCourse">
+        <div class="inenrTourCourse">
+            <h1 class="title">대전광역시 지도</h1>
+            <div>
+                <img src="A 모듈/투어 코스 추천/투어코스지도.png" alt="tourMap">
+                <div class="radios">
+                    <input type="radio" name="number" id="1" checked>
+                    <input type="radio" name="number" id="2">
+                    <input type="radio" name="number" id="3">
+                    <input type="radio" name="number" id="4">
+                    <input type="radio" name="number" id="5">
+                    <label id="number" for="1">1</label>
+                    <label id="number" for="2">2</label>
+                    <label id="number" for="3">3</label>
+                    <label id="number" for="4">4</label>
+                    <label id="number" for="5">5</label>
+
+                    <div class="cards">
+                        <div class="card1" id="card">
+                            <div class="top">
+                                <div>
+                                    <h2>성심당</h2>
+                                    <a href="#">지도보기</a>
+                                </div>
+                                <span>대전광역시 중구 은행동 대종로480번길 15</span>
+                            </div>
+                            <div class="middle">
+                                <input type="radio" name="1-1" id="1-1">
+                                <input type="radio" name="1-1" id="1-2" checked>
+                                <input type="radio" name="1-1" id="1-3">
+                                <label for="1-1">방문 계기</label>
+                                <label for="1-2">만족도</label>
+                                <label for="1-3">연도별 방문자</label>
+                                <div id="section">
+                                    <div class="sec1">
+                                    
+                                    </div>
+                                    <div class="sec2">
+                                        <ul>
+                                            <li style="--color: #333; --max: 100%"></li>
+                                            <li style="--color: #666; --max: 30%"></li>
+                                            <li style="--color: #999; --max: 60%"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="sec3">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                <span>빵집 대표 메뉴 : 튀김소보로/부추빵</span>
+                                <span class="des">
+                                    성심당은 大田의 文化입니다.' 1956년 대전역 앞 작은 찐빵집에서 시작된 성심당은, 대전 시민의 자부심과 사랑으로 대한민국 제과업계를 대표하는 향토기업으로 성장하였습니다. 우리는 가톨릭 정신을 바탕으로 지역 사회에 봉사하는 가치있는 기업이 되고자 합니다. 또한 '맛있는 빵, 경이로운 빵, 생명의 빵'을 만들어 이웃과 함께 '사랑의 문화'를 이루어 가고자 합니다
+                                </span>
+                            </div>
+                        </div>
+                        <!-- <div class="card2" id="card">
+                            <div class="top">
+                                <div>
+                                    <h2>성심당</h2>
+                                    <a href="#">지도보기</a>
+                                </div>
+                                <span>대전광역시 중구 은행동 대종로480번길 15</span>
+                            </div>
+                            <div class="middle">
+                                <input type="radio" name="1-1" id="1-1">
+                                <input type="radio" name="1-1" id="1-2">
+                                <input type="radio" name="1-1" id="1-3">
+                                <label for="1-1">방문 계기</label>
+                                <label for="1-2">만족도</label>
+                                <label for="1-3">연도별 방문자</label>
+                                <div class="sec1" id="section">
+                                    
+                                </div>
+                                <div class="sec2" id="section">
+                                    
+                                </div>
+                                <div class="sec3" id="section">
+                                    
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                <span>빵집 대표 메뉴 : 튀김소보로/부추빵</span>
+                                <span class="des">
+                                    성심당은 大田의 文化입니다.' 1956년 대전역 앞 작은 찐빵집에서 시작된 성심당은, 대전 시민의 자부심과 사랑으로 대한민국 제과업계를 대표하는 향토기업으로 성장하였습니다. 우리는 가톨릭 정신을 바탕으로 지역 사회에 봉사하는 가치있는 기업이 되고자 합니다. 또한 '맛있는 빵, 경이로운 빵, 생명의 빵'을 만들어 이웃과 함께 '사랑의 문화'를 이루어 가고자 합니다
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card3" id="card">
+                            <div class="top">
+                                <div>
+                                    <h2>성심당</h2>
+                                    <a href="#">지도보기</a>
+                                </div>
+                                <span>대전광역시 중구 은행동 대종로480번길 15</span>
+                            </div>
+                            <div class="middle">
+                                <input type="radio" name="1-1" id="1-1">
+                                <input type="radio" name="1-1" id="1-2">
+                                <input type="radio" name="1-1" id="1-3">
+                                <label for="1-1">방문 계기</label>
+                                <label for="1-2">만족도</label>
+                                <label for="1-3">연도별 방문자</label>
+                                <div class="sec1" id="section">
+                                    
+                                </div>
+                                <div class="sec2" id="section">
+                                    
+                                </div>
+                                <div class="sec3" id="section">
+                                    
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                <span>빵집 대표 메뉴 : 튀김소보로/부추빵</span>
+                                <span class="des">
+                                    성심당은 大田의 文化입니다.' 1956년 대전역 앞 작은 찐빵집에서 시작된 성심당은, 대전 시민의 자부심과 사랑으로 대한민국 제과업계를 대표하는 향토기업으로 성장하였습니다. 우리는 가톨릭 정신을 바탕으로 지역 사회에 봉사하는 가치있는 기업이 되고자 합니다. 또한 '맛있는 빵, 경이로운 빵, 생명의 빵'을 만들어 이웃과 함께 '사랑의 문화'를 이루어 가고자 합니다
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card4" id="card">
+                            <div class="top">
+                                <div>
+                                    <h2>성심당</h2>
+                                    <a href="#">지도보기</a>
+                                </div>
+                                <span>대전광역시 중구 은행동 대종로480번길 15</span>
+                            </div>
+                            <div class="middle">
+                                <input type="radio" name="1-1" id="1-1">
+                                <input type="radio" name="1-1" id="1-2">
+                                <input type="radio" name="1-1" id="1-3">
+                                <label for="1-1">방문 계기</label>
+                                <label for="1-2">만족도</label>
+                                <label for="1-3">연도별 방문자</label>
+                                <div class="sec1" id="section">
+                                    
+                                </div>
+                                <div class="sec2" id="section">
+                                    
+                                </div>
+                                <div class="sec3" id="section">
+                                    
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                <span>빵집 대표 메뉴 : 튀김소보로/부추빵</span>
+                                <span class="des">
+                                    성심당은 大田의 文化입니다.' 1956년 대전역 앞 작은 찐빵집에서 시작된 성심당은, 대전 시민의 자부심과 사랑으로 대한민국 제과업계를 대표하는 향토기업으로 성장하였습니다. 우리는 가톨릭 정신을 바탕으로 지역 사회에 봉사하는 가치있는 기업이 되고자 합니다. 또한 '맛있는 빵, 경이로운 빵, 생명의 빵'을 만들어 이웃과 함께 '사랑의 문화'를 이루어 가고자 합니다
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card5" id="card">
+                            <div class="top">
+                                <div>
+                                    <h2>성심당</h2>
+                                    <a href="#">지도보기</a>
+                                </div>
+                                <span>대전광역시 중구 은행동 대종로480번길 15</span>
+                            </div>
+                            <div class="middle">
+                                <input type="radio" name="1-1" id="1-1">
+                                <input type="radio" name="1-1" id="1-2">
+                                <input type="radio" name="1-1" id="1-3">
+                                <label for="1-1">방문 계기</label>
+                                <label for="1-2">만족도</label>
+                                <label for="1-3">연도별 방문자</label>
+                                <div class="sec1" id="section">
+                                    
+                                </div>
+                                <div class="sec2" id="section">
+                                    
+                                </div>
+                                <div class="sec3" id="section">
+                                    
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                <span>빵집 대표 메뉴 : 튀김소보로/부추빵</span>
+                                <span class="des">
+                                    성심당은 大田의 文化입니다.' 1956년 대전역 앞 작은 찐빵집에서 시작된 성심당은, 대전 시민의 자부심과 사랑으로 대한민국 제과업계를 대표하는 향토기업으로 성장하였습니다. 우리는 가톨릭 정신을 바탕으로 지역 사회에 봉사하는 가치있는 기업이 되고자 합니다. 또한 '맛있는 빵, 경이로운 빵, 생명의 빵'을 만들어 이웃과 함께 '사랑의 문화'를 이루어 가고자 합니다
+                                </span>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>      
+            </div>
+        </div>
+    </section>
+</body>
+</html>

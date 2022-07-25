@@ -1,0 +1,246 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+:root{
+    --mainColor: #333;
+    --subColor: #666;
+}
+html{
+    font-size: 62.5%;
+}
+
+.title{
+    font-size: 5rem;
+    font-weight: bold;
+    color: var(--mainColor);
+    letter-spacing: -2px;
+    word-spacing: 2px;
+    text-align: left;
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+    border-bottom: 3px solid var(--subColor);
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* 투어 코스 추천 섹션 시작*/
+.tourCourse{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+    margin: 10rem 0;
+}
+.tourCourse .inenrTourCourse{
+    max-width: 1440px;
+    width: 100%;
+}
+.tourCourse .inenrTourCourse div{
+    position: relative;
+}
+.tourCourse .inenrTourCourse div img{
+    width: 40%;
+}
+.tourCourse .inenrTourCourse div .radios{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+}
+.tourCourse .inenrTourCourse div .radios input[name="number"]{
+    display: none;
+}
+.tourCourse .inenrTourCourse div .radios input[id="1"]:checked ~ label[for="1"]{color: red;}
+.tourCourse .inenrTourCourse div .radios input[id="2"]:checked ~ label[for="2"]{color: red;}
+.tourCourse .inenrTourCourse div .radios input[id="3"]:checked ~ label[for="3"]{color: red;}
+.tourCourse .inenrTourCourse div .radios input[id="4"]:checked ~ label[for="4"]{color: red;}
+.tourCourse .inenrTourCourse div .radios input[id="5"]:checked ~ label[for="5"]{color: red;}
+.tourCourse .inenrTourCourse div .radios label[id="number"]{
+    position: absolute;
+    display: grid;
+    place-items: center;
+    left: 10%;
+    top: 50%;
+    min-width: 5rem;
+    min-height: 5rem;
+    font-size: 4rem;
+    color: var(--mainColor);
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .5s;
+}
+.tourCourse .inenrTourCourse div .radios label[id="number"]:nth-of-type(1){
+    left: 9.6% ;
+    top: 27% ;
+}
+.tourCourse .inenrTourCourse div .radios label[id="number"]:nth-of-type(2){
+    left: 21.5% ;
+    top: 34% ;
+}
+.tourCourse .inenrTourCourse div .radios label[id="number"]:nth-of-type(3){
+    left: 4.8% ;
+    top: 51% ;
+}
+.tourCourse .inenrTourCourse div .radios label[id="number"]:nth-of-type(4){
+    left: 27.2% ;
+    top: 53.2% ;
+}
+.tourCourse .inenrTourCourse div .radios label[id="number"]:nth-of-type(5){
+    left: 19.3% ;
+    top: 65% ;
+}
+
+.cards{
+    position: absolute !important;
+    right: 0px;
+    top: 0px;
+    width: 30%;
+    height: 100%;
+    border: 2px solid var(--mainColor);
+}
+.cards #card{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+.cards #card .top{
+    position: relative;
+    width: 100%;
+}
+.cards #card .top div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding-bottom: 1rem; 
+    margin-bottom: 1rem;
+    border-bottom: 3px solid var(--mainColor);
+}
+.cards #card .top div h2{
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: -2px;
+    word-spacing: 2px;
+}
+.cards #card .top div a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: var(--mainColor);
+    font-size: 1.6rem;
+    padding: .8rem;
+    border-radius: .5rem;
+    font-weight: bold;
+}
+.cards #card .top span{
+    font-size: 1.4rem;
+    font-weight: bold;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+}
+.cards #card .middle{
+    position: relative;
+    width: 100%;
+    margin: 2rem 0px;
+    text-align: center;
+}
+.middle input{
+    display: none;
+}
+.middle label{
+    font-size: 1.6rem;
+    font-weight: bold;
+    letter-spacing: -1px;
+    margin: 0px 1rem;
+    cursor: pointer;
+    color: #888;
+    transition: all .25s;
+}
+.middle input[id="1-1"]:checked ~ label[for="1-1"]{color: var(--mainColor); font-size: 1.8rem;}
+.middle input[id="1-2"]:checked ~ label[for="1-2"]{color: var(--mainColor); font-size: 1.8rem;}
+.middle input[id="1-3"]:checked ~ label[for="1-3"]{color: var(--mainColor); font-size: 1.8rem;}
+
+.middle #section{
+    position: relative;
+    width: 100%;
+    height: 18rem;
+    margin-top: 2rem;
+}
+#section div{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+    top: 50%;
+    width: 100%;
+    height: 80%;
+    transform: translateY(-50%);
+    display: none;
+}
+.sec1{}
+.sec2 ul{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.sec2 ul li{
+    width: var(--max);
+    height: 3rem;
+    max-width: var(--max);
+    background-color: var(--color);
+    transition: all .5s;
+    animation: li2 1s ease-in-out;
+}
+@keyframes li2 {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+.sec3{}
+
+
+.middle input[id="1-1"]:checked ~ #section .sec1{display: flex;}
+.middle input[id="1-2"]:checked ~ #section .sec2{display: flex; animation: li2 1s ease-in-out;}
+.middle input[id="1-3"]:checked ~ #section .sec3{display: flex;}
+
+.cards #card .bottom{
+    text-align: center;
+}
+.cards #card .bottom span{
+    display: block;
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: -2px;
+    word-spacing: 2px;
+}
+.cards #card .bottom span:nth-of-type(1){
+    margin-bottom: 3rem;
+}
+.des{
+    font-size: 1.6rem !important;
+    color: var(--subColor);
+}
