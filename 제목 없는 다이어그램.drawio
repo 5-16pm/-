@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T05:25:29.779Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="qEfp1CvxijItFLy8sGZF" version="21.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-09T05:29:35.683Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="G9_A23R--1x3c9NcLths" version="21.0.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1167" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="808" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="im172JXE-oLJWmYtnHzh-0" value="시작 도형이 없어서&amp;nbsp;&lt;br&gt;이걸로 할게요 ㅜ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="im172JXE-oLJWmYtnHzh-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.458;exitY=1.031;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="im172JXE-oLJWmYtnHzh-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="240" as="sourcePoint" />
+            <mxPoint x="285" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="im172JXE-oLJWmYtnHzh-2" value="a = 7, b = 5, result" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="220" y="160" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="im172JXE-oLJWmYtnHzh-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.458;exitY=1.031;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="287" y="200" as="sourcePoint" />
+            <mxPoint x="287" y="239" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="im172JXE-oLJWmYtnHzh-4" value="result = a + b" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="233" y="240" width="111" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="im172JXE-oLJWmYtnHzh-5" value="print(result)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="224" y="320" width="126" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="im172JXE-oLJWmYtnHzh-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.458;exitY=1.031;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="285" y="281" as="sourcePoint" />
+            <mxPoint x="285" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
